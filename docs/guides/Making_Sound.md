@@ -1,7 +1,7 @@
 # Making Sound 101
 
 Ok, you're sold. You've read the website, seen the introductory video, you've already
-run `npm install`, got your text editor open and– wait, "I'm brand new to writing audio DSP!"
+run `npm install`, got your text editor open, and — wait —, "I'm brand new to writing audio DSP!"
 you might think. This is the guide for you.
 
 The first thing to know is that you're at the beginning of what might be a long and wonderful
@@ -153,9 +153,9 @@ let tone = sineTone(el.phasor(el.add(200, el.mul(440, el.phasor(1)))));
 
 // Or maybe quickly ramping between 200Hz up to 640Hz?
 let tone = sineTone(el.phasor(el.add(200, el.mul(440, el.phasor(20)))));
-});
 ```
 
-You'll notice as you go that the opportunities for experimentation here already boundless, and if you want to
+You'll notice as you go that the opportunities for experimentation here are already boundless, and if you want to
 get into the proper maths of these particular experiments, see [FM Synthesis](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis).
+
 Or, if you're like me, the maths can come later: try it and see how it sounds!
